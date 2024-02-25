@@ -2,7 +2,7 @@ name: Chats
 
 on:
   schedule:
-    - cron: '*/50 * * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch:
 
 jobs:
